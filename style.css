@@ -1,0 +1,45 @@
+*{
+    margin: 4px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+}
+
+header{
+    background-color: rgb(175, 107, 238);
+    padding: 17px;
+    font-style: italic;
+}
+
+form ,fieldset, label{
+    background-color: rgb(235, 243, 243);
+    padding: 10px 10px;
+}
+
+.checked {
+    text-decoration: line-through;
+    color: red;
+  }
+
+  body{
+    justify-content: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+h1 {
+    text-align: center;
+}
+
+button{
+    background-color: rgba(16, 156, 102, 0.795);
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 9px;
+    
+} 
+
+fieldset{
+    max-width: 360px;
+}
